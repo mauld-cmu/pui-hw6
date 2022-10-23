@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pui-hw6/static/css/main.6e14e177.css",
+    "main.js": "/pui-hw6/static/js/main.6224bbb6.js",
+    "static/js/787.911c6e5a.chunk.js": "/pui-hw6/static/js/787.911c6e5a.chunk.js",
+    "static/media/logo-01.svg": "/pui-hw6/static/media/logo-01.b2f9cdda6d5cda1ce2ffc47e6b747dd4.svg",
+    "index.html": "/pui-hw6/index.html",
+    "main.6e14e177.css.map": "/pui-hw6/static/css/main.6e14e177.css.map",
+    "main.6224bbb6.js.map": "/pui-hw6/static/js/main.6224bbb6.js.map",
+    "787.911c6e5a.chunk.js.map": "/pui-hw6/static/js/787.911c6e5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e14e177.css",
+    "static/js/main.6224bbb6.js"
+  ]
+}
