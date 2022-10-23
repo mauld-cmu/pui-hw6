@@ -1,0 +1,23 @@
+hr {
+  border: 8px solid #7b6666;
+}
+
+#cart-contents {
+  margin: 20px 10%;
+  font-size: 25px;
+}
+
+#empty-cart-msg {
+  text-align: center;
+}
+
+#item-total {
+  float: right;
+}
+
+/* Cart Grid Styling */
+#cart-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
