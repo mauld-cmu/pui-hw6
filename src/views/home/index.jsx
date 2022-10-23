@@ -55,7 +55,9 @@ class Homepage extends Component {
     // Stores the roll most recently added to cart - used for the cart popup
     currentRoll: new RollObj('original', 'keepOriginal', 'onePack'), 
     products: Object.values(rollData), // Contains listings for products
-    cart: [], // Contains elements in the cart
+
+    cart: JSON.parse(localStorage.getItem("localCart")) || [], // Contains elements in the cart
+
     cartAmount: "0 items",
     cartTotal: "Total: $0.00",
     showCart: false,
@@ -199,6 +201,16 @@ class Homepage extends Component {
     this.setState({
       filterQuery: event.target.value.toLowerCase()
     })
+  }
+
+  componentDidMount() {
+    localStorage.setItem("localCart",
+      JSON.stringify(this.state.cart));
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem("localCart",
+      JSON.stringify(this.state.cart));
   }
 
   render() { 
