@@ -3,10 +3,6 @@ import './NavBar.css';
 import CartPopup from './CartPopup';
 
 class NavBar extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   // Hides or shows cart based on button click
   toggleParentCart = (event) => {
     this.props.toggleCart();

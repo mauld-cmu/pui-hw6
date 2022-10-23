@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import './SearchSortBar.css';
 
 class SearchSortBar extends Component {
-  constructor(props) {
-    super(props);
-  }
-  state = {  
-  }
   render() { 
     return ( 
       <div id="bar">

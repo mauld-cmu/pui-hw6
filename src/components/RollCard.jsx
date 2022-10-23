@@ -3,10 +3,6 @@ import './RollCard.css';
 import { glazingData, packData } from '../data/ShopData';
 
 class RollCard extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   state = {
     glazing: "keepOriginal",
     packSize: "onePack",

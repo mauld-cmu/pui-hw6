@@ -3,10 +3,6 @@ import './CartCard.css';
 import { rollData } from '../data/ShopData'
 
 class CartCard extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   deleteFromCart = (event) => {
     this.props.removeFromCartByIndex(this.props.index);
   }

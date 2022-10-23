@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './CartPopup.css';
 
 class CartPopup extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     // Conditional Rendering
     if (!this.props.showCartPopup) {
